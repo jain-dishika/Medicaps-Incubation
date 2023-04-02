@@ -14,7 +14,7 @@ export default function Header() {
       <div className="header-bar">
         <div className="header-img-container">
           <NavLink to="/">
-            <img src="https://miifoundation.cyclic.app/images/medicaps.png" alt="MII Logo" width={"65px"} />
+            <img src="https://media.licdn.com/dms/image/C560BAQFVLpC7QtyrAg/company-logo_200_200/0/1676459347608?e=1688601600&v=beta&t=Uz0Rkdha0RQy2tvOpJu6S8wL0MQsG-8ivVACFbiPjbY" alt="MII Logo" width={"50%"} />
           </NavLink>
           {display ? (
             <p className="cross" onClick={() => setDisplay(!display)}>
