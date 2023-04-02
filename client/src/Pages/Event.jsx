@@ -4,6 +4,7 @@ import './Event.css'
 
 const Event = () => {
   return (
+    <div className='event'>
     <div className='wrapper'>
         <Card img="/images/event1.png"
             title="Event One"
@@ -17,6 +18,7 @@ const Event = () => {
             title="Event Three"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex exercitationem vel excepturi mollitia molestiae aliquam officiis eligendi...."
         />
+    </div>
     </div>
   )
 }
