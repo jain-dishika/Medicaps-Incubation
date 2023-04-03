@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: 20vh ; */
+        flex-direction: row-reverse;
+    flex-wrap: wrap;
     /* width: 80%; */
 }
 
@@ -18,10 +19,18 @@
     border-right: 2px solid #999;
 }
 
+@media only screen and (max-width: 600px) {
+    .passion-section1 {
+      width: 100%;
+    }
+    .passion-section2 {
+        margin-top: 20vh;
+    }
+  }
+
 .section3-homepage{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
     height: 500px;
 }

@@ -5,6 +5,7 @@ import './Event.css'
 const Event = () => {
   return (
     <div className='event scroll-sections' style={{paddingTop:"20vh"}}>
+      <h1 style={{textAlign:"center", margin:"20px",fontSize:"60px"}}>Upcomming Events</h1>
     <div className='wrapper'>
         <Card img="/images/event1.png"
             title="Event One"
