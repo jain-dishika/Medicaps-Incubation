@@ -3,7 +3,7 @@ import "./Offering.css";
 export default function Offering() {
   return (
     <>
-      <div className="offering">
+      <div className="offering scroll-sections">
         <div className="title" style={{ textAlign: "center", padding: "20px" }}>
           Offering
         </div>

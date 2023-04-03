@@ -3,7 +3,7 @@ import './Article.css';
 export default function Article() {
   return (
     <div>
-        <div className="articleCss">
+        <div className="articleCss scroll-sections">
             Article Here
         </div>
     </div>

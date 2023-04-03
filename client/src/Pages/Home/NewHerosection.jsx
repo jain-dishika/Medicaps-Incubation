@@ -16,7 +16,7 @@ export default function NewHerosection() {
         </div>
 
         </div>
-        <div>
+        <div style={{textAlign:"center"}}>
         <h2>"Unlock your business potential"</h2>
         </div>
         </div>

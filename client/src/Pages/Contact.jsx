@@ -3,7 +3,7 @@ import './Contact.css';
 import ChangeComponantSelect from './ChangeContentSelect';
 export default function Contact() {
   return (
-    <div>
+     <div className="scroll-sections" >
        
            <div className='contactsrc'>
 

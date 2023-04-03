@@ -4,7 +4,8 @@ import './About.css';
 import SingleTeamMember from "./SingleTeamMember";
 export default function About() {
   return (
-    <div className='about-container'>
+    
+    <div className='about-container scroll-sections'>
       <div className="about-section-1">
         <h6 className='section-1-heading'>About Us</h6>
         <p className="section-1-paragraph">"Create a perfect ecosystem for your business"</p>

@@ -109,6 +109,18 @@
   width: 90%;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+}
+.section2-heading{
+  width: 300px;
+}
+.section2-content{
+  width:calc(80% - 300px);
+}
+@media only screen and (max-width: 600px) {
+  .section2-content {
+    width: 100%;
+  }
 }
 .section2-container .section2-heading h1{
   color: white;
