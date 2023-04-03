@@ -2,31 +2,13 @@ import React from "react";
 import Ourpartner from "../AboutUs/Ourpartner";
 import "./Herosection.css";
 import ScrollAnimation from "./Home/ScrollAnimation";
+import NewHerosection from "./Home/NewHerosection";
 const Herosection = () => {
   return (
     <>
-    <div className="scroll-sections">
-      <div className="home-section-container">
-        <div className="home-section-1-container">
-          <div className="section-1-text">
-            <div className="section-1-heading">
-              <h3 className="section-1-home-container1">MII Foundation</h3>
-              {/* <h3 className="section-1-home-container2">I&nbsp;</h3> */}
-              {/* <h3 className="section-1-home-container3"> Foundation</h3> */}
-            </div>
-            <div className="section-1-slogan">
-              <h3 className="mii-slogan">"Unlock Your Business Potential"</h3>
-            </div>
-          </div>
-          <div className="section-1-image">
-            <img
-              className="hero-section-1-img"
-              src="https://images.chesscomfiles.com/uploads/game-gifs/90px/light/neo/0/cc/0/0/bUMwS2d2NVFmSCFUbHQ5SWtzOCFlZzk4cHhXT0h5WkpibDNWZmVYSHlySkJsZjZTZndTcmlyN1pyekk5ZG1Cc2pzT0d6R1FHY3VZSWVkWlFta0h6dkt6cmtyR3I,.gif"
-              alt=""
-            />
-          </div>
-        </div>
-        </div>
+    <div className="scroll-sections" >
+    <NewHerosection/>
+    </div>
         <div className="scroll-sections" >
         <div className="section2-home-page" style={{height:"92vh"}}>
           <div className="section2-container">
@@ -48,12 +30,11 @@ const Herosection = () => {
           </div>
         </div>
       </div>
-      </div>
       <div className="scroll-sections">
       <ScrollAnimation/>
       </div>
       <div className="scroll-sections">
-      <Ourpartner/>
+      {/* <Ourpartner/> */}
       </div>
     </>
   );

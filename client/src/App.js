@@ -22,6 +22,7 @@ function App() {
         <Route  path='/Event' element={<Event/> }/>
       </Routes>
       <Footer/>
+
     </div>
   );
 }

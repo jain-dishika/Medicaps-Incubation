@@ -1,4 +1,4 @@
-.footer-section {
+/* .footer-section {
     background: #151414;
     position: relative;
   }
@@ -165,4 +165,26 @@
   .footer-menu li a {
     font-size: 14px;
     color: #878787;
-  }
+  } */
+
+
+
+
+
+.footer-body{
+  height: 80vh;
+  display: grid;
+  background-color: black;
+  color: aliceblue;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.footer-link h2{
+  padding: 20px 0;
+}
+.insidediv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -9,11 +9,44 @@ export default function ScrollAnimation() {
 <div class="scroll__content scroll__hero is-alwayssticky">
     <div class="scroll__sectionwrapper " style={{display:"flex",justifyContent:"center",alignItems:"center"}} >
     <div className=''>
-            {/* <i class="fa-solid fa-chess-pawn fa-9x"></i>  */}
-            <i class="fa-solid fa-chess fa-9x"></i>
+            {/* <i class="fa-solid fa-chess fa-9x"></i> */}
+
+            
+  <div class="gearbox">
+  <div class="overlay"></div>
+    <div class="gear one">
+      <div class="gear-inner">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
     </div>
-    <div className=''>
-    {/* <i class="fa-light fa-chess-bishop-piece"></i> */}
+    <div class="gear two">
+      <div class="gear-inner">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    <div class="gear three">
+      <div class="gear-inner">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    <div class="gear four large">
+      <div class="gear-inner">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </div>
+
     </div>
     
     </div>
