@@ -1,7 +1,14 @@
 .Space{
-    margin:30px 0;
-    height: 30px;
-    width: 150px;
+    align-items: center;
+    text-align: center;
+   padding: 4px;
+    margin:auto;
+    height: 35px;
+    width: 180px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(31, 33, 33);
+    background-color: none;
 }
 .componantA{
     background-color: grey;
@@ -16,14 +23,52 @@
     font-size: 32px;
 }
 .componantC{
-    background-color: rgb(138, 20, 167);
+    background-color: rgb(36, 7, 44);
     color: white;
     height: 50vh;
     font-size: 32px;
 }
 .componantNone{
-    background-color:salmon;
-    color: white;
-    height: 50vh;
+   /* background: linear-gradient(to right, transparent 0%, #3e3e3e 100%); */
+    color: black;
+    height: 60vh;
     font-size: 32px;
+}
+
+.subject{
+    text-align: center;
+    
+    font-size: 35px;
+}
+
+option{
+    border-radius: 5px;
+    font-size: 30px;
+    color: black;
+    background-color: whitesmoke;
+}
+
+
+
+.tag h1{
+    text-decoration: underline;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(108, 106, 106);
+
+}
+
+.tag h1:hover{
+color: maroon;
+
+transition: all;
+font-size: 80px;
+cursor: pointer;
+
+}
+
+.componantD{
+    /* background-color: rgb(36, 7, 44); */
+    /* color: white; */
+    height: 50vh;
+    /* font-size: 32px; */
 }
